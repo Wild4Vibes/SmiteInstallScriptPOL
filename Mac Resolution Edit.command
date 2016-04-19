@@ -33,7 +33,7 @@ function run {
 	echo "Enable fullscreen?"
 	select yn in "Yes" "No"; do
 		case $yn in
-			Yes ) setFullscreen true; fullscreen=true; break;;
+			Yes ) setFullscreen false; fullscreen=false; break;;
 			No ) setFullscreen false; fullscreen=false; break;;
 		esac
 	done
